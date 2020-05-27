@@ -126,6 +126,13 @@ impl IntroQuizSet {
 
     pub fn print_problem(&self) {
         println!("{}", self.quiz_list[self.index]);
+        println!("Q => play music");
+        println!("Space => Answer");
+        println!("A => AC");
+        println!("W => WA");
+        println!("T => TLE");
+        println!("N => Move to next music");
+        println!("P => Move to previous music");
     }
 }
 
